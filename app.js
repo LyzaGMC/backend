@@ -5,7 +5,12 @@ const mongoose = require("mongoose");
 const cors = require("cors");
 
 const app = express();
-app.use(cors()); // Enable CORS for all routes
+app.use(cors(
+{
+  origin : ["https://frontend-app-exgv.onrender.com"]
+}
+
+)); // Enable CORS for all routes
 
 // Middleware to parse JSON bodies
 app.use(express.json());

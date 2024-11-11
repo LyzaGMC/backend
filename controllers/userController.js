@@ -1,6 +1,6 @@
 const User = require("../schemas/user");
 const Program = require("../schemas/program");
-const bcrypt = require("bcrypt");
+const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
 const nodemailer = require("nodemailer");
 require("dotenv").config(); // Importer dotenv pour utiliser les variables d'environnement

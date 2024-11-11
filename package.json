@@ -3,7 +3,8 @@
   
   "scripts": {
     
-    "start": "node app.js"
+    "start": "node app.js",
+    "rebuild": "npm rebuild bcrypt"
   },
   "dependencies": {
     "@sendgrid/mail": "^8.1.4",
